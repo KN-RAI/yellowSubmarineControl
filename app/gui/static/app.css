@@ -134,6 +134,11 @@ ul {
     justify-content: center;
     flex-direction: column;
     color: #7CFC00;
+    text-align: center;
+}
+
+.yaw-scale img {
+    transform: translate(-23.43%, 0%);
 }
 
 .pitch-box {
@@ -154,7 +159,3 @@ ul {
     transform: translate(0%, -41.5%);
 }
 
-.precise-pitch-value {
-    margin-left: 0.2em;
-    width: 4em;
-}
