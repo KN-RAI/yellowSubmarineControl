@@ -4,11 +4,134 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Welcome home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/app.css">
+    <title>YellowSubmarine HUD</title>
   </head>
-
   <body>
-    <h1>Home Page</h1>
-    <p>This is the home page of our application.</p>
+    <div class="container">
+      <div class="metadata darkened">
+        <div class="title">
+          Yellow Submarine
+        </div>
+        <div class="mark">
+          Front Cam
+        </div>
+      </div>
+      <div class="left-margin">
+        <div class="logs darkened">
+          <ul>
+            <li class="warning">[13:01:23] Info that something bad may happen soon Info that something bad may happen soon Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+
+            <li class="warning">[13:01:23] Info that something bad may happen soon</li>
+            <li>[12:33:52] Yet another normal info</li>
+            <li>[12:32:53] Normal info</li>
+            <li class="error">[12:25:22] Info about something really bad</li>
+            <li>[12:10:59] Other normal info</li>
+            <li>[12:10:21] Normal info</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hud-center">
+        <div class="yaw-box">
+          <div class="yaw-scale">
+            <img src="/static/yawScale.svg">
+            <span class="precise-yaw-value">^ -177&deg;</span>
+          </div>
+        </div>
+        <div class="pitch-box">
+          <div class="pitch-scale">
+            <img src="/static/pitchScale.svg">
+            <span class="precise-pitch-value">< -77&deg;</span>
+          </div>
+        </div>
+      </div>
+      <div class="right-margin">
+        <div class="params darkened">
+          <ul>
+            <li>Depth: 30cm</li>
+            <li>Speed: 30m/h</li>
+            <li></li>
+          </ul>
+          <ul>
+            <li>L Temperature: 20</li>
+            <li>L Humidity: 10%</li>
+            <li></li>
+          </ul>
+          <ul>
+            <li>C Temperature: 20</li>
+            <li>C Humidity: 10%</li>
+            <li></li>
+          </ul>
+          <ul>
+            <li>R Temperature: 20</li>
+            <li>R Humidity: 10%</li>
+            <li></li>
+          </ul>
+          <ul>
+            <li>DC RPM: 1200</li>
+            <li>S RPM: 5</li>
+          </ul>
+        </div>
+        <div class="compass darkened roll-scale">
+          <span class="precise-yaw-value">-177&deg;</span>
+        </div>
+      </div>
+    </div>
+    <script src="/static/app.js"></script>
   </body>
 </html>
