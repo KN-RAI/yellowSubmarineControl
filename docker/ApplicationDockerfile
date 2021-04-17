@@ -1,0 +1,7 @@
+FROM python:3.7-alpine
+WORKDIR /app
+EXPOSE 5000
+COPY ./app/requirements.txt /app/requirements.txt
+COPY ./docker/ApplicationEntrypoint.sh /opt/ApplicationEntrypoint.sh
+RUN apk add --no-cache gcc musl-dev linux-headers
+ENTRYPOINT ["/opt/ApplicationEntrypoint.sh"]
