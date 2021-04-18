@@ -1,6 +1,5 @@
 body {
-    background-image: url("https://ak.picdn.net/shutterstock/videos/11057339/thumb/1.jpg");
-    background-size: cover;
+    background-color: black;
     color: white;
     margin: 0;
     padding: 0;
@@ -165,4 +164,23 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%) rotate(-18deg);
     width: 80%;
+}
+
+.camera {
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:50%;
+    transform: translate(-50%, 0%);
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.camera-stretched {
+    left:0;
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
 }

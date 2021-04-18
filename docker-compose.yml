@@ -19,6 +19,8 @@ services:
             dockerfile: ./docker/ApplicationDockerfile
         volumes:
             - ./app:/app
+        devices:
+            - "/dev/video0:/dev/video0"
         env_file:
           - ./docker/Application.env
         restart: unless-stopped
