@@ -1,5 +1,0 @@
-FROM python:3.9
-WORKDIR /app
-EXPOSE 5000
-COPY ./docker/ApplicationEntrypoint.sh /opt/ApplicationEntrypoint.sh
-ENTRYPOINT ["/opt/ApplicationEntrypoint.sh"]
